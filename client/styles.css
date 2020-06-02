@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('./img/back.jpg');
+    display: block;
+    background-attachment: fixed;
+    font-size: 20px;
+    
+}
+.container{
+    width: 90%;
+    display: block;
+    justify-content: center;
+    clear: both;
+    margin: 0px auto;
+    box-shadow: 0px 0px 40px black;
+}
+header{
+    
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+   
+   
+}
+header h1{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(248, 255, 248);
+    opacity: 0.5;
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+section{
+    
+    justify-content: center;
+    align-items: center;
+    clear: right;
+}
+ .video{
+     width: 100%;
+    text-align: center;
+}
+.buttons{
+    width: 100%;
+    text-align: center;
+    
+}
+button{
+    padding: 20px;
+    margin: 50px;
+    margin-block-end: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
